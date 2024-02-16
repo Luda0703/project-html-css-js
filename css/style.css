@@ -306,9 +306,6 @@ button{
 
 
 
-
-
-
 /* ////// FOOTER /////// */
 
 .footer{
@@ -339,6 +336,16 @@ button{
 
 
 /* ////// ADAPTIVE /////// */
+
+@media (max-width: 1050px){
+    .steps__list{
+        gap: 37px, 35px;
+    }
+
+    .steps__item{
+        gap: 0 30px;
+    }
+}
 
 @media (max-width: 1000px){
     .container{
@@ -383,6 +390,34 @@ button{
     .section__text{
         font-size: 10px;
     }
+
+}
+
+@media (max-width: 980px){
+    .steps__title{
+        font-size: 30px;
+    }
+
+    .steps__list{
+        gap: 25px, 25px;
+    }
+
+    .steps__item{
+        gap: 0 20px;
+    }
+
+    .steps__item-img{
+        width: 85px;
+        object-fit: cover;
+    }
+
+    .steps__item-text{
+        font-size: 8px;
+    }
+
+    .steps__item::before{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 900px){
@@ -407,7 +442,7 @@ button{
     .products__content{
         gap: 30px 16px;
     }
-}
+} 
 
 @media (max-width: 768px){
     body{
@@ -654,7 +689,23 @@ button{
         width: 300px;
     }
 
-    
+    .steps__list{
+        gap: 25px, 40px;
+    }
+}
+
+@media (max-width: 404px){
+    .steps__list{
+        gap: 20px, 25px;
+    }
+
+    .steps__item{
+        gap: 0 16px;
+    }
+
+    .steps__item-img{
+        width: 66px;
+    }
 }
 
 @media (max-width: 360px){
@@ -741,6 +792,10 @@ button{
 
     .products__item-text{
         margin-bottom: 16px;
+    }
+
+    .steps__item-text{
+        font-size: 6px;
     }
 
 }
