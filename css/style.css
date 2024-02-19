@@ -304,6 +304,44 @@ button{
     padding-bottom: 40px;
 }
 
+/* ////// COURSES /////// */
+
+.course__item-img{
+    position: relative;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Yeseva One', serif;
+}
+
+.course__title{
+    padding: 15px;
+    background-color: #BEA495;
+    position: absolute;
+    left: 10px;
+    top: 45%;
+}
+
+.course__time{
+    padding: 7px 10px;
+    background-color: #BEA495;
+    position: absolute;
+    left: 10px;
+    top: 60%;
+}
+
+.course__time span{
+    font-size: 10px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.course__price{
+    padding: 19px 10px;
+    background-color: #BEA495;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+}
+
 
 
 /* ////// FOOTER /////// */
