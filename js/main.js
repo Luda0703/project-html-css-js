@@ -6,7 +6,18 @@ menuBtn.addEventListener('click', () => {
 });
 
 const swiperOne = new Swiper('.feedback__slider', {
+    loop: false,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+  });
+
+  const swiperTwo = new Swiper('.certificates__slider', {
     loop: true,
+    slidesPerView: 3,
+    speceBetween: 20,
 
     pagination: {
         el: '.swiper-pagination',
