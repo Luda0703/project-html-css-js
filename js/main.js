@@ -25,6 +25,9 @@ const swiperOne = new Swiper('.feedback__slider', {
       },
 
       breakpoints: {
+        640: {
+            slidesPerView: 3,
+        },
         480: {
             slidesPerView: 2,
         },
