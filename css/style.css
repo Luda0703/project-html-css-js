@@ -37,6 +37,7 @@ ul{
     font-size: 40px;
     margin-bottom: 15px;
     font-weight: 400;
+    font-family: 'Yeseva One', serif;
 }
 
 .section{
@@ -569,6 +570,26 @@ button{
         padding: 50px 0;
     }
 
+    .feedback__inner{
+        grid-template-columns: 260px, auto;
+    }
+
+    .feedback__slider{
+        width: 690px;
+    }
+
+    .certificates__content img{
+        width: 280px;
+    }
+
+    .certificates__slider{
+        width: 880px;
+    }
+
+    .certificates__content .swiper-pagination {
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 980px){
@@ -620,6 +641,10 @@ button{
     .products__content{
         gap: 30px 16px;
     }
+
+    .title{
+        font-size: 25px;
+    }
 } 
 
 @media (max-width: 768px){
@@ -637,6 +662,10 @@ button{
         left: -16px;
         top: -2px;
         background-size: cover;
+    }
+
+    .title{
+        font-size: 15px;
     }
 
     .top__content{
@@ -658,10 +687,6 @@ button{
 
     .about__contant{
         min-width: 200px;
-    }
-
-    .title{
-        font-size: 15px;
     }
 
     .about__title{
@@ -761,6 +786,38 @@ button{
 
     .team__item-descr{
         font-size: 7px;
+    }
+
+    .feedback__item-video{
+        width: 200px;
+    }
+
+    .feedback__item-img{
+        width: 200px;
+    }
+
+    .feedback__slider{
+        width: 447px;
+    }
+
+    .feedback__item-content{
+        padding-bottom: 45px;
+    }
+
+    .feedback__item-btn{
+        padding: 15px 20px;
+    }
+
+    .feedback__content {
+        padding-bottom: 94px;
+    }
+
+    .certificates__content img{
+        width: 200px;
+    }
+
+    .certificates__slider{
+        width: 630px;
     }
 }
 
@@ -916,6 +973,11 @@ button{
     .team{
         margin-bottom: 50px;
     }
+
+    .certificates__slider{
+        width: 415px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 404px){
@@ -955,6 +1017,37 @@ button{
         width: 150px;
         bottom: 15px;
         left: 148px;
+    }
+
+    .certificates__slider{
+        width: 200px;
+    }
+
+    .feedback__item{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .feedback__slider{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .feedback__item-img{
+        width: 250px;
+        margin: 0 auto 20px;
+    }
+
+    .feedback__item-video{
+        width: 250px;
+    }
+
+    .feedback__item-btn{
+        margin: 0 auto;
+        max-width: 100px;
+        font-size: 8px;
+        bottom: 0;
+        left: 0;
     }
 }
 

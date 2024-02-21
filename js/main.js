@@ -23,5 +23,14 @@ const swiperOne = new Swiper('.feedback__slider', {
         el: '.swiper-pagination',
         clickable: true,
       },
+
+      breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        360: {
+            slidesPerView: 1,
+        }
+      }
   });
 
