@@ -475,6 +475,38 @@ button{
     text-align: left;
 }
 
+/* ////// ACCARDEON /////// */
+
+.accordeon{
+    
+
+}
+
+.accordeon__item{
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+}
+
+.accordeon__title{
+    font-size: 16px;
+    font-family: 'Yeseva One', serif;
+    display: block;
+    background-color: transparent;
+    padding: 16px 50px 16px 13px;
+}
+
+.accordeon__title::after{
+    content: '';
+    background-image: url(../images/vect.svg);
+    width: 16px;
+    height: 16px;
+}
+
+.accordeon__text{
+    display: none;
+    padding: 20px 40px;
+}
+
 /* ////// PROMO /////// */
 
 .promo{
