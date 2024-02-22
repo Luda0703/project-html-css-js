@@ -48,9 +48,9 @@ const swiperOne = new Swiper('.feedback__slider', {
         currentText.classList.toggle('accordeon__text-visible');
 
         if(currentText.classList.contains('accordeon__text-visible')) {
-            currentText.style.maxHeingt = currentText.scrollHeight + 'px';
+            currentText.style.maxHeight = currentText.scrollHeight + 'px';
         } else {
-            currentText.style.maxHeingt = null;
+            currentText.style.maxHeight = null;
         }
     })
   })
